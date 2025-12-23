@@ -4,6 +4,7 @@ Modified version of callirhoe to add the following features:
 - italian translations and holidays
 
 Simple "Dutch" style calendar with italians holidays and moons:
+    $ sudo apt-get install python3.12-venv # this is for Ubuntu 24.04.3, if on other platform install and run Python 3.8's `venv` binary, as judging from the base repo's code, it was originally written in Python 3.8 but should work on Python 3.12, this is all I know
     $ python -m venv venv
     $ source ven/bin/activate
     % sudo apt install libcairo2-dev pkg-config python3-dev # for platforms other than Debian see: https://pycairo.readthedocs.io/en/latest/getting_started.html
