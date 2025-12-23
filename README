@@ -5,7 +5,7 @@ Modified version of callirhoe to add the following features:
 
 Simple "Dutch" style calendar with italians holidays and moons:
     $ python -m venv venv
-    $ source ven/bin/activate
+    $ source venv/bin/activate
     $ pip install # it may require to install external libraries like cairo-dev
     $ ./callirhoe.py --layout=sparse --style bw_sparse_custom --rows=1 --cols=2 --month-with-year --no-footer --padding=1 --border=0.5 --lang=IT --with-holidays=holidays/italian_holidays.IT.dat --moons 2025 calendar.pdf
     
